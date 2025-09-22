@@ -34,7 +34,11 @@
 
 public class Bottle {
 
-    /*Generell möchte man nicht, dass von außen direkt auf Attribute zugegriffen werden kann. Damit würde man die Kontrolle verlieren und nicht mehr überprüfen können, welche Werte gesetzt werden. Außerdem könnte man z.B. nicht einfach den Datentyp oder den Namen ändern, ohne dass überall im Code, wo auf diese Attribute zugegriffen wird, Änderungen vorgenommen werden müssen.
+    /*
+    Generell möchte man nicht, dass von außen direkt auf Attribute zugegriffen werden kann. 
+    Damit würde man die Kontrolle verlieren und nicht mehr überprüfen können, welche Werte gesetzt werden. 
+    Außerdem könnte man z.B. nicht einfach den Datentyp oder den Namen ändern, ohne dass überall im Code, wo auf diese Attribute zugegriffen wird, 
+    Änderungen vorgenommen werden müssen.
 
     Deswegen sind Attribute in den allermeisten Fällen private!
 
